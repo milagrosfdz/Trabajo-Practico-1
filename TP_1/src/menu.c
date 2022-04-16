@@ -30,7 +30,7 @@ void menu(){
 
 
 	//inicializacion
-	i = 9;
+	i = 0;
 	x = 0;
 	y = 0;
 	z = 0;
@@ -85,13 +85,9 @@ void menu(){
 				precioEnBTCLATAM = calcularPrecioBitcoin(z);
 				precioUnitarioLATAM = calcularPrecioUnitario(z,x);
 				diferenciaDePrecio = calcularDiferenciaDePrecio(y,z);
-
-
-
-
 			}
 
-			break;
+				break;
 		case 4 :
 					printf("\nAerolíneas: %.2f", y);
 					printf("\na) Precio con tarjeta de débito: %.2f", precioDescuentoTarjetaDebitoAerolineas);
@@ -155,15 +151,15 @@ void menu(){
 
 			break;
 		case 6:
-
-
+			i = 6;
+			limpiarConsola();
 			break;
 		default:
 			printf("elegir nuevamente una opcion");
 		}
 
-
 	}while(i !=6);
+	}
 
 
 

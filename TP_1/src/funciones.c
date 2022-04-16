@@ -67,3 +67,8 @@ float calcularDiferenciaDePrecio(float numero1, float numero2){
 
 	return diferenciaPrecio;
 }
+void limpiarConsola(){
+	printf("\n\n\n\n\n\n\n\n\n\n\n\n\n");
+	printf("\n\n\n\n\n\n\n\n\n\n\n\n\n");
+	printf("\n\n\n\n\n\n\n\n\n\n\n\n\n");
+}

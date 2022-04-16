@@ -12,3 +12,5 @@ void menu();
 /// funcion para mostrar el menu de opciones
 
 
+void limpiarConsola();
+///funcion que limpia la consola
