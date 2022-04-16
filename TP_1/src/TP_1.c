@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : TP_1.c
- Author      : 
+ Author      : Milagros Fernandez DIV B
  Version     :
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
